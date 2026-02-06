@@ -2,13 +2,13 @@
 
 ## 1. Giới thiệu bài thực hành
 **Student Management** là bài thực hành (Lab) nhằm mục đích giúp các Sinh viên nắm kiến thức cơ bản để xây dựng một Webapp bằng Java Spring Boot
-**Bối Cảnh Bài Tập**
+### Bối Cảnh Bài Tập
 Chúng ta sẽ xây dựng hệ thống Student Management API - một dịch vụ backend quản lý hồ sơ sinh viên. Hệ thống này đóng vai trò là lõi xử lý dữ liệu cho một ứng dụng quản lý trường học giả định.
-**Chức năng chính**
+### Chức năng chính
 - Quản lý thông tin hồ sơ sinh viên (Tên, Email, Tuổi).
 - Cung cấp API cho các ứng dụng Frontend (Web/Mobile) kết nối.
 - Lưu trữ dữ liệu bền vững (Persistence) vào Database.
-**Bài LAB gồm 5 phần**
+### Bài LAB gồm 5 phần
 - Lab 1: Khởi tạo & Kiến trúc
 - Lab 2: Xây dụng Backend REST API
 - Lab 3: Xây dựng Frontend (SSR)
@@ -17,7 +17,7 @@ Chúng ta sẽ xây dựng hệ thống Student Management API - một dịch v�
 
 ---
 
-## 2. Thông tin thành viên nhóm thực hiện
+## 2. Thông tin thành viên trong nhóm thực hiện
 
 | Họ và tên        | MSSV       | Mã lớp |
 |------------------|------------|--------|
@@ -28,9 +28,9 @@ Chúng ta sẽ xây dựng hệ thống Student Management API - một dịch v�
 
 ## 3. Trả lời câu hỏi các bài Lab
 
-### Lab 1 – Câu hỏi và trả lời
+## Lab 1 – Câu hỏi và trả lời
 
-## Câu 1: Dữ liệu lớn  
+### Câu 1: Dữ liệu lớn  
 **Hãy thử thêm ít nhất 10 sinh viên nữa.**
 
 **Trả lời:**  
@@ -39,7 +39,7 @@ Việc thêm nhiều bản ghi giúp mô phỏng dữ liệu thực tế và thu
 
 ---
 
-## Câu 2: Ràng buộc Khóa Chính (Primary Key)  
+### Câu 2: Ràng buộc Khóa Chính (Primary Key)  
 **Cố tình Insert một sinh viên có `id` trùng với một người đã có sẵn.  
 Quan sát thông báo lỗi: `UNIQUE constraint failed`.  
 Tại sao Database lại chặn thao tác này?**
@@ -55,7 +55,7 @@ Cơ chế này giúp:
 
 ---
 
-## Câu 3: Toàn vẹn dữ liệu (Constraints)  
+### Câu 3: Toàn vẹn dữ liệu (Constraints)  
 **Thử Insert một sinh viên nhưng bỏ trống cột `name` (để NULL).  
 Database có báo lỗi không?  
 Từ đó suy nghĩ xem sự thiếu chặt chẽ này ảnh hưởng gì khi code Java đọc dữ liệu lên?**
